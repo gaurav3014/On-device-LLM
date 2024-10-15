@@ -62,6 +62,26 @@ This section handles various UI elements like showing/hiding elements, updating 
 ## Demo
 ![Screenshot 2024-10-15 at 8 37 15 PM](https://github.com/user-attachments/assets/c595f564-8c75-45ea-97c9-e9829eb2c8a0)
 
+## Implementation Approach and Key Design Decisions
+- Focused on building an on-device LLM chatbot using WebLLM.
+- Incorporated a model selection dropdown for user flexibility.
+- Leveraged webpage metadata to generate contextually relevant query suggestions.
+- Designed the UI with separate panels for chat interactions and query suggestions, enhancing user experience.
+
+## Challenges Faced and Solutions
+- Managed on-device resource constraints, optimizing model loading for smooth performance.
+- Implemented real-time progress tracking during model downloads.
+- Minimized UI updates to maintain responsive interactions.
+
+## Performance Analysis and Optimization
+- Reduced loading overhead by initializing components only when needed.
+- Cached metadata for quicker query suggestions, minimizing latency during user interactions.
+
+## Limitations and Potential Improvements
+- Response time may vary depending on model size and device capability.
+- Potential improvements include adding support for lightweight models and using model compression techniques for offline functionality.
+
+
 
 
 ## License
