@@ -23,3 +23,45 @@ Follow these steps to set up and run the project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/on-device-llm-chatbot.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd on-device-llm-chatbot
+   ```
+
+### Usage
+1. Open `index.html` in your web browser.
+2. Select a model from the dropdown and click **Download** to initialize WebLLM.
+3. Enter your message in the chat input and click **Send**.
+4. Click **Show Suggestions** to generate queries based on webpage metadata.
+
+## File Structure
+- `index.html`: The main HTML file that includes the structure of the app.
+- `index.js`: Contains the application logic, including WebLLM integration and chat handling.
+- `index.css`: Styles the user interface for an engaging experience.
+
+## Code Overview
+
+### WebLLM Logic
+This section initializes the WebLLM engine and sets up model loading with real-time progress tracking. The selected model is used for generating responses in the chat.
+
+### Chat with Page
+Handles message interactions between the user and the AI agent, including sending messages, receiving responses, and updating the UI dynamically.
+
+### Query Suggestion
+Uses metadata from the current page to generate suggested queries. The metadata includes the webpage title, description, and keywords.
+
+### UI Logic
+This section handles various UI elements like showing/hiding elements, updating message content, and displaying query suggestions.
+
+### Styles
+- The application features a flexible layout with separate sections for the chat interface and suggestions.
+- Styles are applied to differentiate between user and AI messages.
+- Suggestions have hover effects for better user interaction.
+
+## Demo
+![On-Device-LLM Chatbot Screenshot](./demo-screenshot.png)
+
+## License
+This project is licensed under the MIT License.
+
