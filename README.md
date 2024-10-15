@@ -60,7 +60,8 @@ This section handles various UI elements like showing/hiding elements, updating 
 - Suggestions have hover effects for better user interaction.
 
 ## Demo
-![On-Device-LLM Chatbot Screenshot](https://drive.google.com/file/d/1NPzCxCQXG-Plxdy-IqmIjxV5e9O3T895/view?usp=sharing)
+![On-Device-LLM Chatbot Screenshot](![Screenshot 2024-10-15 at 8 37 15 PM](https://github.com/user-attachments/assets/c595f564-8c75-45ea-97c9-e9829eb2c8a0)
+)
 
 ## License
 This project is licensed under the MIT License.
