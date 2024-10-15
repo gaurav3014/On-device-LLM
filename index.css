@@ -1,0 +1,153 @@
+body,
+html {
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    
+}
+
+.download-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+.model-selection{
+  width: 100%;
+}
+#download-status {
+    border: solid 1px black;
+    box-shadow:
+        0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+}
+
+/* Flexbox container for Chat and Suggestions */
+.main-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Chat Section */
+.chat-container {
+    flex: 2;
+    height: 500px;
+    border: 2px solid #c3c3c3;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.chat-box {
+    overflow-y: scroll;
+    background-color: #e4e4e4;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    flex: 1 1;
+}
+
+.chat-stats {
+    background-color: #d3eceb;
+    padding: 10px;
+    font-size: 0.75rem;
+}
+
+.message-container {
+    width: 100%;
+    display: flex;
+}
+
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    width: fit-content;
+}
+
+.message-container.user {
+    justify-content: end;
+}
+
+.message-container.assistant {
+    justify-content: start;
+}
+
+.message-container.user .message {
+    background: #007bff;
+    color: #fff;
+}
+
+.message-container.assistant .message {
+    background: #f1f0f0;
+    color: #333;
+}
+
+.chat-input-container {
+    display: flex;
+    }
+
+#user-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    
+    padding: 10px;
+    border: none;
+    background-color: #116fd5;
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.suggestions-container {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+#suggestions-container {
+    height: 100%;
+    padding: 5px;
+    border: 2px solid #c3c3c3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #e4e4e4;
+    overflow: scroll;
+}
+
+.suggestion {
+    padding: 8px;
+    
+    cursor: pointer;
+    align-items: baseline;
+}
+
+.suggestion:hover {
+    background-color: #116fd5;
+}
+
+.no-suggestions {
+    color: #7a7676;
+    font-style: italic;
+}
