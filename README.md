@@ -60,7 +60,8 @@ This section handles various UI elements like showing/hiding elements, updating 
 - Suggestions have hover effects for better user interaction.
 
 ## Demo
-((https://github.com/user-attachments/assets/c595f564-8c75-45ea-97c9-e9829eb2c8a0)
+![Screenshot 2024-10-15 at 8 37 15 PM](https://github.com/user-attachments/assets/c595f564-8c75-45ea-97c9-e9829eb2c8a0)
+
 
 
 ## License
