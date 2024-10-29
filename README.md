@@ -1,6 +1,6 @@
 # On-Device-LLM Chatbot
 
-This project is an on-device chatbot application powered by WebLLM. It allows users to chat with an AI agent and generate suggested queries based on webpage metadata.
+This project is an on-device chatbot application powered by WebLLM. It allows users to chat with an AI model and generate suggested queries based on webpage metadata.
 
 ## Features
 - **Initialize and Load Models**: Choose from available models and initialize the WebLLM engine.
