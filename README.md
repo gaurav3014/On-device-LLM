@@ -4,7 +4,7 @@ This project is an on-device chatbot application powered by WebLLM. It allows us
 
 ## Features
 - **Initialize and Load Models**: Choose from available models and initialize the WebLLM engine.
-- **Interactive Chat**: Chat with the AI agent and receive real-time responses.
+- **Interactive Chat**: Chat with the AI Model and receive real-time responses.
 - **Query Suggestions**: Generate query suggestions based on the metadata of the current webpage.
 - **On-Device Processing**: All processing occurs on the device, enhancing privacy and performance.
 
@@ -46,7 +46,7 @@ Follow these steps to set up and run the project locally:
 This section initializes the WebLLM engine and sets up model loading with real-time progress tracking. The selected model is used for generating responses in the chat.
 
 ### Chat with Page
-Handles message interactions between the user and the AI agent, including sending messages, receiving responses, and updating the UI dynamically.
+Handles message interactions between the user and the AI Moedl, including sending messages, receiving responses, and updating the UI dynamically.
 
 ### Query Suggestion
 Uses metadata from the current page to generate suggested queries. The metadata includes the webpage title, description, and keywords.
